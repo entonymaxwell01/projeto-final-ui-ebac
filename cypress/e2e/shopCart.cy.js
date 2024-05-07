@@ -17,5 +17,7 @@ describe("Adicionando itens ao carrinho", () => {
     Catalog.visitPage();
   });
 
-  it.only("Deve adicionar um item ao carrinho", () => {});
+  it.only("Deve adicionar um item ao carrinho", () => {
+    Catalog.addProduct();
+  });
 });
